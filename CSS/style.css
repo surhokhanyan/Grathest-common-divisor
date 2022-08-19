@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  background-color: #58A6A6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container #main {
+  width: 50%;
+  height: 50vh;
+  background-color: #EFE1BA;
+  -webkit-box-shadow: 0 0 25px #B90D4C;
+          box-shadow: 0 0 25px #B90D4C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#container #main #inputPlace {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#container #main #inputPlace input {
+  width: 30%;
+  height: 50px;
+  background-color: #B90D4C;
+  outline: none;
+  border: 2px solid #EFE1BA;
+  -webkit-box-shadow: 2px 2px 0px #58A6A6;
+          box-shadow: 2px 2px 0px #58A6A6;
+  text-align: center;
+  color: #EFE1BA;
+  font-size: 20px;
+}
+
+#container #main #btn {
+  width: 30%;
+  height: 50px;
+  border: 2px solid #EFE1BA;
+  -webkit-box-shadow: 2px 2px 0px #58A6A6;
+          box-shadow: 2px 2px 0px #58A6A6;
+  background-color: #B90D4C;
+  text-align: center;
+  font-size: 24px;
+  color: #EFE1BA;
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+#container #main #btn:hover {
+  background-color: #58A6A6;
+  -webkit-box-shadow: 2px 2px 0px #B90D4C;
+          box-shadow: 2px 2px 0px #B90D4C;
+}
+
+#container #main p {
+  font-size: 42px;
+  color: #B90D4C;
+  text-shadow: 1px 1px 0px #58A6A6;
+}
+/*# sourceMappingURL=style.css.map */
